@@ -1,0 +1,8 @@
+Setup,Top-1 Exact,Exact/Nearby,Top-10 Exact,Far Rate
+DINOv2-small global,54.11,58.93,70.44,37.56
+RemoteCLIP,52.6,58.82,,36.56
+DINOv2-small + VLAD k16,66.71,70.53,80.51,26.13
+DINOv2-large global,78.96,82.33,90.2,14.87
+DINOv2-large + VLAD k8,82.0,85.71,90.4,12.09
++ source-image filter,88.64,94.64,96.56,0.0
++ context-crop rotation,90.53,96.11,97.8,0.0
