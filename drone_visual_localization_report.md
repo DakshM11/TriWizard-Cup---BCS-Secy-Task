@@ -323,10 +323,18 @@ The best model was DINOv2-large patch features with VLAD k=8. Without filtering 
 The remaining failures are mainly local ambiguities inside the correct source region, especially at hard rotations like 120°, 135°, and 225°. The next improvements should focus on tighter GPS filtering, ambiguity-based analysis, and top-k reranking.
 
 ---
-
 ## References
 
 - DINOv2: Learning Robust Visual Features without Supervision — https://arxiv.org/abs/2304.07193
+
 - AnyLoc: Towards Universal Visual Place Recognition — https://arxiv.org/abs/2308.00688
+
 - AnyLoc GitHub repository — https://github.com/AnyLoc/AnyLoc
+
 - RemoteCLIP: A Vision Language Foundation Model for Remote Sensing — https://arxiv.org/abs/2306.11029
+
+- Inria Aerial Image Labeling Dataset / Benchmark — https://project.inria.fr/aerialimagelabeling/
+
+- Inria Aerial Image Labeling Benchmark paper: Can Semantic Labeling Methods Generalize to Any City? — https://inria.hal.science/hal-01468452/document
+
+- Endee Vector Database — https://github.com/Endee-Pro/navigation
